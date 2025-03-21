@@ -12,44 +12,6 @@
 
 <body>
     <main>
-        <section id="home">
-            <div id="menu">
-                <header>
-                    <nav>
-                        <div class="menu">
-                            <div class="logo">
-                                <img src="./img/logo.png" alt="logo">
-                            </div>
-                            <div class="navegation">
-                                <ul>
-                                    <li><a href="">HOME</a></li>
-                                    <li><a href="">SOBRE</a></li>
-                                    <li><a href="">SERVIÇOS</a></li>
-                                    <li><a href="">PORTFÓLIO</a></li>
-                                    <li><a href="">CONTATO</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </header>
-            </div>
-
-            <div id="homeContainer">
-                <ul>
-                    <li>
-                        <h1>Somos Especializados em <br>Desenvolvimento de Sites</h1>
-                    </li>
-                    <li>
-                        <p>Somos especializados no desenvolvimento de sites profissionais e utilizamos as <br>mais
-                            modernas
-                            técnicas para web design existentes na internet.</p>
-                    </li>
-                    <li>
-                        <img src="./img/tec.png" alt="tec">
-                    </li>
-                </ul>
-            </div>
-        </section>
 
         <section id="sobre">
             <div class="titulo">
@@ -104,133 +66,68 @@
                     </div>
                 </div>
 
-                <div class="valoresContainer">
-                    <h2>VALORES</h2>
-                    <div class="valores">
-                        <!-- Abas -->
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="inovacao-tab" data-bs-toggle="tab"
-                                    href="#inovacao">INOVAÇÃO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="qualidade-tab" data-bs-toggle="tab"
-                                    href="#qualidade">QUALIDADE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="colaboracao-tab" data-bs-toggle="tab"
-                                    href="#colaboracao">COLABORAÇÃO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="etica-tab" data-bs-toggle="tab" href="#etica">ÉTICA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="satisfacao-tab" data-bs-toggle="tab"
-                                    href="#satisfacao">SATISFAÇÃO
-                                    DO CLIENTE</a>
-                            </li>
-                        </ul>
 
-                        <!-- Conteúdo das abas -->
-                        <div class="tab-content mt-3">
-                            <div class="tab-pane fade show active" id="inovacao">
-                                <div class="text">
-                                    <p>Buscar ideias, tecnologias e abordagens novas para soluções únicas e inovadoras.
-                                    </p>
-                                </div>
+                <div class="valores">
+                    <div class="valores">
+                        <div class="tab-container">
+                            <div class="tab-buttons">
+                                <button class="tab-link active" data-tab="inovacao"><span>INOVAÇÃO</span></button>
+                                <button class="tab-link" data-tab="qualidade"><span>QUALIDADE</span></button>
+                                <button class="tab-link" data-tab="colaboracao"><span>COLABORAÇÃO</span></button>
+                                <button class="tab-link" data-tab="etica"><span>ÉTICA</span></button>
+                                <button class="tab-link" data-tab="satisfacao"><span>SATISFAÇÃO DO
+                                        CLIENTE</span></button>
                             </div>
-                            <div class="tab-pane fade" id="qualidade">
-                                <div class="text">
-                                    <p>Compromisso com a excelência e a entrega de soluções que atendem aos mais altos
-                                        padrões.</p>
+                            <div class="tab-content">
+                                <div id="inovacao" class="tab-pane active">
+                                    Estamos sempre em busca de novas soluções e tecnologias para criar sites modernos e
+                                    personalizados, que atendam às necessidades únicas de cada cliente. Nossa busca pela
+                                    inovação nos permite entregar resultados criativos e de alto impacto.
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="colaboracao">
-                                <div class="text">
-                                    <p>Trabalhar em equipe e com os clientes para alcançar objetivos comuns e promover o
-                                        sucesso.</p>
+                                <div id="qualidade" class="tab-pane">
+                                    <p>Nosso compromisso com a qualidade garante que entregamos sites bem desenvolvidos,
+                                        rápidos e
+                                        funcionais. Cada projeto é realizado com cuidado e atenção aos detalhes, sempre
+                                        superando as
+                                        expectativas dos nossos clientes.</p>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="etica">
-                                <div class="text">
-                                    <p>Atuar com transparência, responsabilidade e respeito em todas as interações.</p>
+                                <div id="colaboracao" class="tab-pane">
+                                    <p>Acreditamos na força da colaboração, trabalhando de perto com nossos clientes
+                                        para entender
+                                        suas necessidades e oferecer soluções que atendam aos seus objetivos. A parceria
+                                        constante é
+                                        essencial para alcançar os melhores resultados.</p>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="satisfacao">
-                                <div class="text">
-                                    <p>Entregar resultados que superem as expectativas, garantindo a satisfação total do
-                                        cliente.</p>
+                                <div id="etica" class="tab-pane">
+                                    <p>Priorizamos a transparência, honestidade e respeito em todos os nossos processos,
+                                        garantindo
+                                        que nossos clientes possam confiar em nossa integridade. Atuamos de forma ética
+                                        em todas as
+                                        fases do projeto.</p>
+                                </div>
+                                <div id="satisfacao" class="tab-pane">
+                                    <p>Nosso maior objetivo é garantir a satisfação total dos nossos clientes. Estamos
+                                        comprometidos
+                                        em oferecer soluções que não apenas atendam, mas superem suas expectativas,
+                                        criando relações
+                                        duradouras e de confiança.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-
             </div>
 
-
+            <!-- <div class="line">
+            </div> -->
         </section>
 
-        <section id="servicos">
-            <div class="servicosContainer">
-                <ul>
-                    <div class="titleServicos">
-                        <li>
-                            <h1>Serviços</h1>
-                        </li>
-                    </div>
 
-                    <div class="subTitleServicos">
-                        <li>
-                            <h2>TECNOLOGIA</h2>
-                        </li>
-                    </div>
-                    <div class="textServicos">
-                        <li>
-                            <p><span>Nossa cultura é nativo digital! Sempre à frente das inovações, definimos
-                                    estratégias e
-                                    desenvolvemos as melhores soluções para levar a sua empresa além do digital.</span>
-                            </p>
-                        </li>
-                    </div>
-                    <div class="servicosInformation">
-                        <li>
-                            <p><span>Criação de WordPress</span></p>
-                        </li>
-                        <li>
-                            <p><span>Desenvolvimento de Site</span></p>
-                        </li>
-                        <li>
-                            <p><span>Desenvolvimento de Landing Page</span></p>
-                        </li>
-                        <li>
-                            <p><span>Desenvolvimento de Sistemas</span></p>
-                        </li>
-                        <li>
-                            <p><span>Criação de Mapas em Games (Modo Criativo)</span></p>
-                        </li>
-                        <li>
-                            <p><span>Desenvolvimento de Mapas no Metaverso (Gather Town)</span></p>
-                        </li>
-                    </div>
-                    <div class="imagemServicos">
-                        <li>
-                            <img src="./img/imagemServicos.png" alt="imagemServicos">
-                        </li>
-                    </div>
-                </ul>
-            </div>
-        </section>
 
-        <section id="pertfolio">
 
-        </section>
 
-        <section id="contato">
 
-        </section>
     </main>
 </body>
 <script src="./js/script.js"></script>
