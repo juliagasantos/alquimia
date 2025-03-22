@@ -1,31 +1,3 @@
-
-// function showTab(tabId) {
-//   document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-//   document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
-//   document.getElementById(tabId).classList.add('active');
-//   document.querySelector(`.tab[onclick="showTab('${tabId}')"]`).classList.add('active');
-// }
-
-//
-
-// const tabs = document.querySelectorAll(".tab-link");
-// const panes = document.querySelectorAll(".tab-pane");
-
-// tabs.forEach(tab => {
-//     tab.addEventListener("click", function() {
-//         tabs.forEach(t => t.classList.remove("active"));
-//         panes.forEach(p => p.classList.remove("active"));
-
-//         this.classList.add("active");
-//         document.getElementById(this.dataset.tab).classList.add("active");
-//     });
-// });
-
-
-
-
-//
-
 // Seleciona todos os botões de abas
 document.addEventListener("DOMContentLoaded", function() {
   const tabButtons = document.querySelectorAll('.tab-buttons button');
@@ -49,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
+// Seleciona todos os botões de abas 480px
 document.addEventListener('DOMContentLoaded', () => {
   const tabs = document.querySelectorAll('.tab-item');
   const tabContent = document.querySelectorAll('.tab-content');
